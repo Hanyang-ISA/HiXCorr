@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>stat-column</TITLE>
+</HEAD>
+<BODY>
+<blockquote>
+<H1 ALIGN=CENTER>stat-column</H1>
+
+<B>Usage:</B>
+
+<blockquote>
+<code>crux stat-column [options] &nbsp;&lt;tsv&nbsp;filename&gt; 
+  &nbsp;&lt;column&nbsp;name&gt; </code>
+</blockquote>
+
+<B>Description:</B>
+<p>
+Given a tab-delimited file, collect summary statistics on the values
+within a specified column.  The specified column must contain numeric
+values.</p>
+
+<B>Input:</B>
+<UL>
+
+<li>
+&lt;tsv&nbsp;filename&gt; &ndash; A tab-delimited file, with column
+headers in the first row.  Use "-" to read from standard input. 
+</li>
+	
+<li>
+&lt;column&nbsp;name&nbsp&gt; &ndash; The column to process.
+</li>
+
+</UL>
+
+<B>Output:</B>
+
+<ul>
+The program prints to standard output the number of rows, the minimum,
+maximum, sum, average, and median of the data values in the specified
+column.
+</ul>
+
+<B>Options:</B>
+
+<UL>
+
+<li>
+<code>--delimiter &lt;char&gt;|tab</code> &ndash; Specify the input
+and output delimiter to use when processing the delimited file.
+Default=tab.</li>
+
+<li>
+<code>--header T|F</code> &ndash; Print the header line of the file,
+in addition to the columns that match.  Default=T.
+
+<LI>
+<code>--verbosity &lt;0-100&gt;</code> &ndash; Specify the verbosity of the
+current processes. Each level prints the following messages, including
+all those at lower verbosity levels: 0-fatal errors, 10-non-fatal
+errors, 20-warnings, 30-information on the progress of execution,
+40-more progress information, 50-debug info, 60-detailed debug info.
+Default = 30.</li>
+
+</ul>
+
+<hr></hr>
+
+<p>
+<a href="crux.html">Crux home</a></p>
+
+</blockquote>
+</body>
+</html>

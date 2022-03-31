@@ -1,0 +1,121 @@
+﻿빌드 시작: 2015-08-04 오후 4:46:56
+     1>2 노드의 "C:\Users\파르데스\Desktop\comet_source_2014022_new\MSToolkit\MSToolkitLite.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I./include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D COMPILED_FROM_DSP /D _NOSQLITE /D XML_STATIC /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS- /Gy- /arch:SSE2 /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /Fo"x64\Release\MSToolkitLite\\" /Fd"x64\Release\MSToolkitLite\vc90.pdb" /Gd /TP /wd4996 /errorReport:prompt "src\expat-2.0.1\xmlparse.cpp" "src\expat-2.0.1\xmlrole.cpp" "src\expat-2.0.1\xmltok.cpp" "src\expat-2.0.1\xmltok_impl.cpp" "src\expat-2.0.1\xmltok_ns.cpp" src\MSToolkit\MSObject.cpp src\MSToolkit\MSReader.cpp src\MSToolkit\RAWReader.cpp src\MSToolkit\Spectrum.cpp src\mzParser\BasicChromatogram.cpp src\mzParser\BasicSpectrum.cpp src\mzParser\Czran.cpp src\mzParser\MSNumpress.cpp src\mzParser\mzp_base64.cpp src\mzParser\mzParser.cpp src\mzParser\PWIZface.cpp src\mzParser\RAMPface.cpp src\mzParser\saxhandler.cpp src\mzParser\saxmzmlhandler.cpp src\mzParser\saxmzxmlhandler.cpp
+     1>cl : 명령줄 warning D9002: 알 수 없는 '/arch:SSE2' 옵션을 무시합니다.
+         xmlparse.cpp
+     1>src\expat-2.0.1\xmlparse.cpp(1764): warning C4244: 'return' : '__int64'에서 'XML_Index'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         xmlrole.cpp
+         xmltok.cpp
+         xmltok_impl.cpp
+         xmltok_ns.cpp
+         MSObject.cpp
+     1>src\MSToolkit\MSObject.cpp(97): warning C4267: 'return' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         MSReader.cpp
+     1>src\MSToolkit\MSReader.cpp(1702): warning C4267: '=' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\MSToolkit\MSReader.cpp(1727): warning C4267: '=' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\MSToolkit\MSReader.cpp(1748): warning C4267: '=' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\MSToolkit\MSReader.cpp(1975): warning C4244: '=' : '__int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         RAWReader.cpp
+     1>src\MSToolkit\RAWReader.cpp(176): warning C4267: '=' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Spectrum.cpp
+     1>src\MSToolkit\Spectrum.cpp(504): warning C4267: 'return' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\MSToolkit\Spectrum.cpp(508): warning C4267: 'return' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\MSToolkit\Spectrum.cpp(512): warning C4267: 'return' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\MSToolkit\Spectrum.cpp(516): warning C4267: 'return' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         BasicChromatogram.cpp
+     1>src\mzParser\BasicChromatogram.cpp(34): warning C4267: 'return' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\BasicChromatogram.cpp(36): warning C4267: 'return' : 'size_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         BasicSpectrum.cpp
+     1>src\mzParser\BasicSpectrum.cpp(167): warning C4267: 'return' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\BasicSpectrum.cpp(172): warning C4267: 'return' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\BasicSpectrum.cpp(190): warning C4267: 'return' : 'size_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Czran.cpp
+     1>src\mzParser\Czran.cpp(162): warning C4267: '=' : 'size_t'에서 'uInt'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\Czran.cpp(294): warning C4267: '=' : 'size_t'에서 'uInt'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         MSNumpress.cpp
+     1>src\mzParser\MSNumpress.cpp(272): warning C4244: '=' : 'unsigned __int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\MSNumpress.cpp(515): warning C4267: 'return' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\MSNumpress.cpp(539): warning C4267: '인수' : 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\MSNumpress.cpp(576): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+         mzp_base64.cpp
+         mzParser.cpp
+         PWIZface.cpp
+     1>src\mzParser\PWIZface.cpp(69): warning C4267: 'return' : 'size_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         RAMPface.cpp
+     1>src\mzParser\RAMPface.cpp(532): warning C4267: '=' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\RAMPface.cpp(543): warning C4267: '=' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\RAMPface.cpp(662): warning C4267: '=' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\RAMPface.cpp(688): warning C4267: '=' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         saxhandler.cpp
+         saxmzmlhandler.cpp
+     1>src\mzParser\saxmzmlhandler.cpp(498): warning C4267: '초기화 중' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\saxmzmlhandler.cpp(499): warning C4267: '초기화 중' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\saxmzmlhandler.cpp(543): warning C4267: '초기화 중' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\saxmzmlhandler.cpp(544): warning C4267: '초기화 중' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\saxmzmlhandler.cpp(820): warning C4267: 'return' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         saxmzxmlhandler.cpp
+     1>src\mzParser\saxmzxmlhandler.cpp(155): warning C4800: 'const char *' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>src\mzParser\saxmzxmlhandler.cpp(259): warning C4267: '초기화 중' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\saxmzxmlhandler.cpp(260): warning C4267: '초기화 중' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\saxmzxmlhandler.cpp(304): warning C4267: '초기화 중' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\saxmzxmlhandler.cpp(305): warning C4267: '초기화 중' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I./include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D COMPILED_FROM_DSP /D _NOSQLITE /D XML_STATIC /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS- /Gy- /arch:SSE2 /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /Fo"x64\Release\MSToolkitLite\\" /Fd"x64\Release\MSToolkitLite\vc90.pdb" /Gd /TC /wd4996 /errorReport:prompt "src\zLib-1.2.5\adler32.c" "src\zLib-1.2.5\compress.c" "src\zLib-1.2.5\crc32.c" "src\zLib-1.2.5\deflate.c" "src\zLib-1.2.5\gzclose.c" "src\zLib-1.2.5\gzlib.c" "src\zLib-1.2.5\gzread.c" "src\zLib-1.2.5\gzwrite.c" "src\zLib-1.2.5\infback.c" "src\zLib-1.2.5\inffast.c" "src\zLib-1.2.5\inflate.c" "src\zLib-1.2.5\inftrees.c" "src\zLib-1.2.5\trees.c" "src\zLib-1.2.5\uncompr.c" "src\zLib-1.2.5\zutil.c"
+     1>cl : 명령줄 warning D9002: 알 수 없는 '/arch:SSE2' 옵션을 무시합니다.
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\파르데스\Desktop\comet_source_2014022_new\x64\Release\MSToolkitLite.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\MSToolkitLite\xmlparse.obj
+         x64\Release\MSToolkitLite\xmlrole.obj
+         x64\Release\MSToolkitLite\xmltok.obj
+         x64\Release\MSToolkitLite\xmltok_impl.obj
+         x64\Release\MSToolkitLite\xmltok_ns.obj
+         x64\Release\MSToolkitLite\MSObject.obj
+         x64\Release\MSToolkitLite\MSReader.obj
+         x64\Release\MSToolkitLite\RAWReader.obj
+         x64\Release\MSToolkitLite\Spectrum.obj
+         x64\Release\MSToolkitLite\BasicChromatogram.obj
+         x64\Release\MSToolkitLite\BasicSpectrum.obj
+         x64\Release\MSToolkitLite\Czran.obj
+         x64\Release\MSToolkitLite\MSNumpress.obj
+         x64\Release\MSToolkitLite\mzp_base64.obj
+         x64\Release\MSToolkitLite\mzParser.obj
+         x64\Release\MSToolkitLite\PWIZface.obj
+         x64\Release\MSToolkitLite\RAMPface.obj
+         x64\Release\MSToolkitLite\saxhandler.obj
+         x64\Release\MSToolkitLite\saxmzmlhandler.obj
+         x64\Release\MSToolkitLite\saxmzxmlhandler.obj
+         x64\Release\MSToolkitLite\adler32.obj
+         x64\Release\MSToolkitLite\compress.obj
+         x64\Release\MSToolkitLite\crc32.obj
+         x64\Release\MSToolkitLite\deflate.obj
+         x64\Release\MSToolkitLite\gzclose.obj
+         x64\Release\MSToolkitLite\gzlib.obj
+         x64\Release\MSToolkitLite\gzread.obj
+         x64\Release\MSToolkitLite\gzwrite.obj
+         x64\Release\MSToolkitLite\infback.obj
+         x64\Release\MSToolkitLite\inffast.obj
+         x64\Release\MSToolkitLite\inflate.obj
+         x64\Release\MSToolkitLite\inftrees.obj
+         x64\Release\MSToolkitLite\trees.obj
+         x64\Release\MSToolkitLite\uncompr.obj
+         x64\Release\MSToolkitLite\zutil.obj
+         MSToolkitLite.vcxproj -> C:\Users\파르데스\Desktop\comet_source_2014022_new\x64\Release\MSToolkitLite.lib
+     1>"C:\Users\파르데스\Desktop\comet_source_2014022_new\MSToolkit\MSToolkitLite.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:08.94

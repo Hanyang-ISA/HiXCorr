@@ -1,0 +1,96 @@
+﻿빌드 시작: 2015-07-31 오후 4:05:02
+     1>2 노드의 "C:\Users\파르데스\Desktop\comet_source_2014022_new\MSToolkit\MSToolkitLite.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GL /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D COMPILED_FROM_DSP /D _NOSQLITE /D XML_STATIC /GF /Gm- /EHsc /MDd /GS- /Gy- /arch:SSE2 /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\mzParser\MSNumpress.cpp
+         MSNumpress.cpp
+     1>src\mzParser\MSNumpress.cpp(272): warning C4244: '=' : 'unsigned __int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>src\mzParser\MSNumpress.cpp(576): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GL /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D COMPILED_FROM_DSP /D _NOSQLITE /D XML_STATIC /GF /Gm- /EHsc /MDd /GS- /Gy- /arch:SSE2 /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "src\zLib-1.2.5\adler32.c" "src\zLib-1.2.5\compress.c" "src\zLib-1.2.5\crc32.c" "src\zLib-1.2.5\deflate.c" "src\zLib-1.2.5\gzclose.c" "src\zLib-1.2.5\gzlib.c" "src\zLib-1.2.5\gzread.c" "src\zLib-1.2.5\gzwrite.c" "src\zLib-1.2.5\infback.c" "src\zLib-1.2.5\inffast.c" "src\zLib-1.2.5\inflate.c" "src\zLib-1.2.5\inftrees.c" "src\zLib-1.2.5\trees.c" "src\zLib-1.2.5\uncompr.c" "src\zLib-1.2.5\zutil.c"
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+     1>src\zLib-1.2.5\gzlib.c(156): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\zLib-1.2.5\gzlib.c(173): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(336) : 'open' 선언을 참조하십시오.
+     1>src\zLib-1.2.5\gzlib.c(184): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(334) : 'lseek' 선언을 참조하십시오.
+     1>src\zLib-1.2.5\gzlib.c(221): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>src\zLib-1.2.5\gzlib.c(268): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(334) : 'lseek' 선언을 참조하십시오.
+     1>src\zLib-1.2.5\gzlib.c(309): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(334) : 'lseek' 선언을 참조하십시오.
+     1>src\zLib-1.2.5\gzlib.c(404): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(334) : 'lseek' 선언을 참조하십시오.
+     1>src\zLib-1.2.5\gzlib.c(514): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\zLib-1.2.5\gzlib.c(515): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\zLib-1.2.5\gzlib.c(516): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         gzread.c
+     1>src\zLib-1.2.5\gzread.c(31): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(337) : 'read' 선언을 참조하십시오.
+     1>src\zLib-1.2.5\gzread.c(37): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : 'strerror' 선언을 참조하십시오.
+     1>src\zLib-1.2.5\gzread.c(650): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(326) : 'close' 선언을 참조하십시오.
+         gzwrite.c
+     1>src\zLib-1.2.5\gzwrite.c(80): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(342) : 'write' 선언을 참조하십시오.
+     1>src\zLib-1.2.5\gzwrite.c(81): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : 'strerror' 선언을 참조하십시오.
+     1>src\zLib-1.2.5\gzwrite.c(333): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : '_vsnprintf' 선언을 참조하십시오.
+     1>src\zLib-1.2.5\gzwrite.c(528): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(326) : 'close' 선언을 참조하십시오.
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\파르데스\Desktop\comet_source_2014022_new\Win32\Debug\MSToolkitLite.lib" /NOLOGO Win32\Debug\xmlparse.obj
+         Win32\Debug\xmlrole.obj
+         Win32\Debug\xmltok.obj
+         Win32\Debug\xmltok_impl.obj
+         Win32\Debug\xmltok_ns.obj
+         Win32\Debug\MSObject.obj
+         Win32\Debug\MSReader.obj
+         Win32\Debug\RAWReader.obj
+         Win32\Debug\Spectrum.obj
+         Win32\Debug\BasicChromatogram.obj
+         Win32\Debug\BasicSpectrum.obj
+         Win32\Debug\Czran.obj
+         Win32\Debug\MSNumpress.obj
+         Win32\Debug\mzp_base64.obj
+         Win32\Debug\mzParser.obj
+         Win32\Debug\PWIZface.obj
+         Win32\Debug\RAMPface.obj
+         Win32\Debug\saxhandler.obj
+         Win32\Debug\saxmzmlhandler.obj
+         Win32\Debug\saxmzxmlhandler.obj
+         Win32\Debug\adler32.obj
+         Win32\Debug\compress.obj
+         Win32\Debug\crc32.obj
+         Win32\Debug\deflate.obj
+         Win32\Debug\gzclose.obj
+         Win32\Debug\gzlib.obj
+         Win32\Debug\gzread.obj
+         Win32\Debug\gzwrite.obj
+         Win32\Debug\infback.obj
+         Win32\Debug\inffast.obj
+         Win32\Debug\inflate.obj
+         Win32\Debug\inftrees.obj
+         Win32\Debug\trees.obj
+         Win32\Debug\uncompr.obj
+         Win32\Debug\zutil.obj
+         zutil.obj : /GL로 컴파일한 MSIL .netmodule 또는 모듈이 있습니다. /LTCG를 지정하여 링크를 다시 시작하십시오. /LTCG를 링크 명령줄에 추가하면 링커 성능이 향상됩니다.
+         MSToolkitLite.vcxproj -> C:\Users\파르데스\Desktop\comet_source_2014022_new\Win32\Debug\MSToolkitLite.lib
+     1>"C:\Users\파르데스\Desktop\comet_source_2014022_new\MSToolkit\MSToolkitLite.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.85

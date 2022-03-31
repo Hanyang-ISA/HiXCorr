@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>sort-by-column</TITLE>
+</HEAD>
+<BODY>
+<blockquote>
+<H1 ALIGN=CENTER>sort-by-column</H1>
+
+<B>Usage:</B>
+
+<blockquote>
+<code>crux sort-by-column [options] &nbsp;&lt;filename&gt; 
+  &lt;column&nbsp;name&gt;</code>
+</blockquote>
+
+<B>Description:</B>
+<p>
+Sort the rows of a tab-delimited file according to the values in a
+specified column.
+</p>
+
+<B>Input:</B>
+<UL>
+
+<li>
+&lt;filename&gt; &ndash; A tab-delimited file, with column
+headers in the first row.  Use "-" to read from standard input. 
+</li>
+	
+<li>
+&lt;column name&gt; &ndash; A column name
+</li>
+
+</UL>
+
+<B>Output:</B>
+
+<ul>
+The program prints to standard output a copy of the given file, with
+rows sorted according to the values in the specified column.
+</ul>
+
+<B>Options:</B>
+
+<UL>
+
+<li>
+<code>--delimiter &lt;char&gt;|tab</code> &ndash; Specify the input
+and output delimiter to use when processing the delimited file.
+Default=tab.</li>
+
+<li>
+<code>--header T|F</code> &ndash; Print the header line of the file,
+in addition to the rows that match.  Default=T.
+</li>
+
+<li>
+<code>--column-type int|real|string</code> &ndash; Specify the data
+ type of the column, either an integer (<code>int</code>), 
+ a floating point number (<code>real</code>), or
+ a <code>string</code>. The default value is <code>string</code>.
+</li>
+
+<li>
+<code>--ascending T|F</code> &ndash; Sort the file in ascending (T) or
+descending (F) order. Default=T.</li>
+
+<LI>
+<code>--verbosity &lt;0-100&gt;</code> &ndash; Specify the verbosity of the
+current processes. Each level prints the following messages, including
+all those at lower verbosity levels: 0-fatal errors, 10-non-fatal
+errors, 20-warnings, 30-information on the progress of execution,
+40-more progress information, 50-debug info, 60-detailed debug info.
+Default = 30.</li>
+
+</ul>
+
+<hr></hr>
+
+<p>
+<a href="crux.html">Crux home</a></p>
+
+</blockquote>
+</body>
+</html>
